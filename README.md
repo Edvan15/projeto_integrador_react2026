@@ -1,0 +1,1 @@
+# projeto_integrador_react2026
