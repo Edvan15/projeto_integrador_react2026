@@ -6,6 +6,7 @@ import Botao from './componentes/botao'
 import Titulo from './componentes/titulo'
 import Aluno from './componentes/aluno'
 
+
 function App() {
   const [count, setCount] = useState(0)
 
