@@ -5,16 +5,16 @@ import './App.css'
 import Botao from './componentes/botao'
 import Titulo from './componentes/titulo'
 import Aluno from './componentes/aluno'
-
+import BotaoSaudacao from './atividades/Exercicio1'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <div>
           <Titulo/>
-          <Botao/>
+          <Mensagem/>
+          <BotaoSaudacao/>
       </div>
     </>
   )
