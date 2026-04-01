@@ -1,20 +1,19 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
+import Atividade from './atividades/Atividade'
+import Aluno from './componentes/aluno'
 import Botao from './componentes/botao'
 import Titulo from './componentes/titulo'
-import Aluno from './componentes/aluno'
-import BotaoSaudacao from './atividades/Exercicio1'
+import Exercicio1 from './atividades/Exercicio1'
+import Exercicio2 from './atividades/Exercicio2'
 
 function App() {
 
   return (
     <>
       <div>
-          <Titulo/>
-          <Mensagem/>
-          <BotaoSaudacao/>
+          <Exercicio1 />
       </div>
     </>
   )
