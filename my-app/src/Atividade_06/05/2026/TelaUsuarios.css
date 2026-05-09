@@ -1,0 +1,13 @@
+.usuarios-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.usuario-card {
+  background-color: white;
+  padding: 20px;
+  width: 260px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}

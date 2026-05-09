@@ -1,0 +1,23 @@
+.lista-produtos {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.produto {
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.produto-0 {
+  background-color: #e3f2fd;
+}
+
+.produto-1 {
+  background-color: #e8f5e9;
+}
+
+.produto-2 {
+  background-color: #fff3e0;
+}

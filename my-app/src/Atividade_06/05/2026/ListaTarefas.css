@@ -1,0 +1,31 @@
+.tarefas-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.tarefa-card {
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tarefa-concluida {
+  background-color: #2e7d32;
+}
+
+.tarefa-pendente {
+  background-color: #c62828;
+}
+
+.tarefa-card button {
+  background-color: white;
+  color: #222;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}

@@ -1,0 +1,22 @@
+.filmes-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.filme-card {
+  border: 1px solid #ddd;
+  border-radius: 14px;
+  padding: 20px;
+  width: 220px;
+  background-color: #fafafa;
+}
+
+.filme-card button {
+  background-color: #673ab7;
+  color: white;
+  border: none;
+  padding: 9px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}

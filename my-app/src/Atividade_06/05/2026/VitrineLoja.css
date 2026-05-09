@@ -1,0 +1,30 @@
+.vitrine {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.vitrine-card {
+  background-color: white;
+  border-radius: 16px;
+  padding: 18px;
+  text-align: center;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+
+.imagem-ficticia {
+  height: 120px;
+  background-color: #dfe6e9;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.vitrine-card button {
+  margin-top: 12px;
+  background-color: #00a86b;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}
